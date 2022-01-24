@@ -1,5 +1,6 @@
-# It contains all the configs required in the project
+#Purpose_of_File: This file lists all configuration parameters.
 
+# It contains all the configs required in the project
 artifacts:
   DOWNLOAD_DATA_DIR: Data
   DOWNLOAD_DATA_NAME: Data.csv
@@ -24,13 +25,14 @@ artifacts:
 #   - path_to_data_1
 #   - path_to_data_1
 
-
+Onnx_Output: Onnx_Output
 local_data_dirs:
   - artifacts/Data
 
 source_download_dirs: 
   - ../outside_data/Text_Classification
 
+Model_Repo: model-repo-text-classification
 source_S3:
   - online-project
 
