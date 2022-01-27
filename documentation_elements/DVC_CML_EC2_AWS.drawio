@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" modified="2022-01-27T16:23:33.822Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="Cknf2mN5W2zU6utwbstU" version="16.4.8" type="github">
+  <diagram id="fnb83CbjcHutObEVnBT5" name="Page-1">
+    <mxGraphModel dx="1416" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xOlD_TCT9_zKF5M06AKU-2" value="&lt;b&gt;Training Pipeline&amp;nbsp;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="340" y="210" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xOlD_TCT9_zKF5M06AKU-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xOlD_TCT9_zKF5M06AKU-3" target="xOlD_TCT9_zKF5M06AKU-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOlD_TCT9_zKF5M06AKU-3" value="Stage 01&lt;br&gt;(Load and Save)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="40" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xOlD_TCT9_zKF5M06AKU-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xOlD_TCT9_zKF5M06AKU-4" target="xOlD_TCT9_zKF5M06AKU-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOlD_TCT9_zKF5M06AKU-4" value="&lt;span&gt;Stage 02&lt;/span&gt;&lt;br&gt;&lt;span&gt;(Prepare Data)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="190" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xOlD_TCT9_zKF5M06AKU-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xOlD_TCT9_zKF5M06AKU-5" target="xOlD_TCT9_zKF5M06AKU-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOlD_TCT9_zKF5M06AKU-5" value="&lt;span&gt;Stage 03&lt;/span&gt;&lt;br&gt;&lt;span&gt;(Train)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="340" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xOlD_TCT9_zKF5M06AKU-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xOlD_TCT9_zKF5M06AKU-6" target="xOlD_TCT9_zKF5M06AKU-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOlD_TCT9_zKF5M06AKU-6" value="&lt;span&gt;Stage 04&lt;/span&gt;&lt;br&gt;&lt;span&gt;(ONNX)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="490" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xOlD_TCT9_zKF5M06AKU-7" value="&lt;span&gt;Stage 05&lt;/span&gt;&lt;br&gt;&lt;span&gt;(Model Evaluation)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="640" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xOlD_TCT9_zKF5M06AKU-12" value="&lt;b&gt;Deployment Pipeline&amp;nbsp;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="330" y="350" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xOlD_TCT9_zKF5M06AKU-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xOlD_TCT9_zKF5M06AKU-16" target="xOlD_TCT9_zKF5M06AKU-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOlD_TCT9_zKF5M06AKU-16" value="&lt;span&gt;Stage 06&lt;/span&gt;&lt;br&gt;&lt;span&gt;(Model Validation)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="190" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xOlD_TCT9_zKF5M06AKU-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xOlD_TCT9_zKF5M06AKU-18" target="xOlD_TCT9_zKF5M06AKU-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOlD_TCT9_zKF5M06AKU-18" value="&lt;span&gt;Stage 07&lt;/span&gt;&lt;br&gt;&lt;span&gt;(Containerization)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="340" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xOlD_TCT9_zKF5M06AKU-20" value="&lt;span&gt;Stage 08&lt;/span&gt;&lt;br&gt;&lt;span&gt;(Scaled Cluster Deployment)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="490" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xOlD_TCT9_zKF5M06AKU-22" value="&lt;b&gt;Retraining Pipeline&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="340" y="490" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xOlD_TCT9_zKF5M06AKU-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xOlD_TCT9_zKF5M06AKU-24" target="xOlD_TCT9_zKF5M06AKU-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOlD_TCT9_zKF5M06AKU-24" value="Stage A&lt;br&gt;(Retraining Trigger)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="190" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xOlD_TCT9_zKF5M06AKU-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xOlD_TCT9_zKF5M06AKU-26" target="xOlD_TCT9_zKF5M06AKU-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOlD_TCT9_zKF5M06AKU-26" value="&lt;span&gt;Stage B&lt;/span&gt;&lt;br&gt;&lt;span&gt;(Training Pipeline)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="342" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xOlD_TCT9_zKF5M06AKU-28" value="&lt;span&gt;Stage C&lt;/span&gt;&lt;br&gt;&lt;span&gt;(Deployment Pipeline)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="490" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xOlD_TCT9_zKF5M06AKU-32" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Full Cycle Pipeline Architecture -v1.0&lt;/font&gt;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="275" y="170" width="250" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
